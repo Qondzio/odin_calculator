@@ -11,13 +11,13 @@ html{
     flex-direction: column;
     border-radius: 20px;
 }
-.score, p{
+.sum p{
     color:white;
     text-align: right;
     font-family: Helvetica;
     font-size: 60px;
     font-weight:100;
-    margin: 10px 15px;
+    margin: 10px 30px;
 }
 .buttons{
     display: grid;
@@ -38,13 +38,22 @@ button{
     background-color: rgb(196, 196, 196);
     color:black;
 }
+.top_grey:active {
+    background-color: aliceblue;
+}
 .numbers{
     background-color: rgb(66, 66, 66);
     color: white;
 }
+.numbers:active {
+    background-color: rgba(197, 197, 197, 0.644);
+}
 .operators{
     background-color: orange;
     color:white;
+}
+.operators:active{
+background-color: rgb(255, 201, 100);
 }
 .zero{
     grid-column: span 2;
@@ -54,4 +63,7 @@ button{
     padding-left: 22px;
     background-color: rgb(66, 66, 66);
     color: white;
+}
+.zero:active{
+    background-color: rgba(197, 197, 197, 0.644);
 }
