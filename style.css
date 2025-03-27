@@ -15,9 +15,9 @@ html{
     color:white;
     text-align: right;
     font-family: Helvetica;
-    font-size: 60px;
+    font-size: 45px;
     font-weight:100;
-    margin: 10px 30px;
+    margin: 20px 30px;
 }
 .buttons{
     display: grid;
